@@ -207,24 +207,6 @@ img {
 
 }
 
-
-.Mianbox {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 450px;
-
-}
-
-.Mianbox a {
-
-    color: #000;
-    text-decoration: none;
-
-}
-
-
 .menu-card {
     display: flex;
     gap: 20px;
