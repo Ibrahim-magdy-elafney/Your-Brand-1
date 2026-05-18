@@ -31,40 +31,41 @@ header:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px 40px;
-        flex-direction: column;
-        text-align: center;
-
-        background: #ffffff;
         margin: 10px;
         padding: 15px;
-        border-radius: 10px;
-        border: 1px solid #e5e7eb;
-
-    }
-
-
-    .box {
-
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-
-
-        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
-        align-items: center;
+        text-align: center;
 
     }
 
 }
+
+.box {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: row;
+    width: 450px;
+    gap: 15px;
+
+    color: #000;
+    border: 1px solid #c08457;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 3px;
+
+}
+
+
 
 .box li {
     width: 100%;
@@ -179,6 +180,39 @@ button:hover {
 
 }
 
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
 .text {
 
     width: 100%;
@@ -200,10 +234,82 @@ img {
     }
 }
 
+.cup-of-coffee {
+
+    width: 130px;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+    border-radius: 0;
+
+}
+
+.cup-of-coffee1 {
+
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+}
+
 .box a {
 
     color: #1a1a1a;
     text-decoration: none;
+
+}
+
+.Mainbox {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    width: 300px;
+    font-size: 11px;
+
+}
+
+.Mainbox a {
+
+    color: #000;
+    text-decoration: none;
+
+}
+
+.He {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+
+}
+
+.me {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 1px;
+
+}
+
+.Cont {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-right: 30px;
 
 }
 
